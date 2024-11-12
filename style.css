@@ -1,4 +1,35 @@
 html {
-  background: #f2f1f4;
+  background: #efdbe7;
   color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+.title.active + .description {
+  display: block;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  padding: 10px;
+  background: #f4f4f4;
+  cursor: pointer;
+  margin-top: 5px;
+  border: solid #19171c;
+}
+
+.title:hover {
+  background: #e4e4e4;
+}
+
+.description {
+  padding: 10px;
+  border: 1px solid #f4f4f4;
 }
